@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		335B5D302AB84C73009C0EB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 335B5D2F2AB84C73009C0EB7 /* AppDelegate.m */; };
+		335B5D332AB84C73009C0EB7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 335B5D322AB84C73009C0EB7 /* SceneDelegate.m */; };
+		335B5D362AB84C73009C0EB7 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 335B5D352AB84C73009C0EB7 /* ViewController.mm */; };
+		335B5D392AB84C73009C0EB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335B5D372AB84C73009C0EB7 /* Main.storyboard */; };
+		335B5D3B2AB84C75009C0EB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 335B5D3A2AB84C75009C0EB7 /* Assets.xcassets */; };
+		335B5D3E2AB84C75009C0EB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335B5D3C2AB84C75009C0EB7 /* LaunchScreen.storyboard */; };
+		335B5D412AB84C75009C0EB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 335B5D402AB84C75009C0EB7 /* main.m */; };
+		335B5D7D2AB84C8B009C0EB7 /* openmp.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 335B5D482AB84C89009C0EB7 /* openmp.xcframework */; };
+		335B5D7E2AB84C8B009C0EB7 /* glslang.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 335B5D492AB84C89009C0EB7 /* glslang.xcframework */; };
+		335B5D7F2AB84C8B009C0EB7 /* ncnn.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 335B5D4A2AB84C89009C0EB7 /* ncnn.xcframework */; };
+		335B5D802AB84C8B009C0EB7 /* MoltenVK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 335B5D7C2AB84C8A009C0EB7 /* MoltenVK.xcframework */; };
+		335B5D952AB84D3B009C0EB7 /* Waifu2xios.mm in Sources */ = {isa = PBXBuildFile; fileRef = 335B5D822AB84D3A009C0EB7 /* Waifu2xios.mm */; };
+		335B5D962AB84D3B009C0EB7 /* GPUInfo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 335B5D832AB84D3A009C0EB7 /* GPUInfo.mm */; };
+		335B5D972AB84D3B009C0EB7 /* waifu2x.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 335B5D872AB84D3A009C0EB7 /* waifu2x.bundle */; };
+		335B5D982AB84D3B009C0EB7 /* waifu2x.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 335B5D942AB84D3B009C0EB7 /* waifu2x.cpp */; };
+		335B5DA12AB84D4C009C0EB7 /* Waifu2xSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 335B5D9A2AB84D4B009C0EB7 /* Waifu2xSettingView.m */; };
+		335B5DA22AB84D4C009C0EB7 /* WMDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = 335B5D9B2AB84D4B009C0EB7 /* WMDragView.m */; };
+		335B5DA32AB84D4C009C0EB7 /* Waifu2xResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 335B5D9C2AB84D4B009C0EB7 /* Waifu2xResultViewController.m */; };
+		335B5DA42AB84D4C009C0EB7 /* Waifu2xResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 335B5D9D2AB84D4B009C0EB7 /* Waifu2xResultView.m */; };
+		335B5DA72AB84D73009C0EB7 /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 335B5DA62AB84D72009C0EB7 /* PhotosUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		335B5D2B2AB84C73009C0EB7 /* Waifu2x.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Waifu2x.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		335B5D2E2AB84C73009C0EB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		335B5D2F2AB84C73009C0EB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		335B5D312AB84C73009C0EB7 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		335B5D322AB84C73009C0EB7 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		335B5D342AB84C73009C0EB7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		335B5D352AB84C73009C0EB7 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		335B5D382AB84C73009C0EB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		335B5D3A2AB84C75009C0EB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		335B5D3D2AB84C75009C0EB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		335B5D3F2AB84C75009C0EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		335B5D402AB84C75009C0EB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		335B5D482AB84C89009C0EB7 /* openmp.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = openmp.xcframework; sourceTree = "<group>"; };
+		335B5D492AB84C89009C0EB7 /* glslang.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = glslang.xcframework; sourceTree = "<group>"; };
+		335B5D4A2AB84C89009C0EB7 /* ncnn.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ncnn.xcframework; sourceTree = "<group>"; };
+		335B5D4E2AB84C8A009C0EB7 /* vulkan_video_codec_h264std.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan_video_codec_h264std.h; sourceTree = "<group>"; };
+		335B5D4F2AB84C8A009C0EB7 /* vulkan_video_codec_h265std.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan_video_codec_h265std.h; sourceTree = "<group>"; };
+		335B5D502AB84C8A009C0EB7 /* vulkan_video_codec_h264std_decode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan_video_codec_h264std_decode.h; sourceTree = "<group>"; };
+		335B5D512AB84C8A009C0EB7 /* vulkan_video_codec_h264std_encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan_video_codec_h264std_encode.h; sourceTree = "<group>"; };
+		335B5D522AB84C8A009C0EB7 /* vulkan_video_codecs_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan_video_codecs_common.h; sourceTree = "<group>"; };
+		335B5D532AB84C8A009C0EB7 /* vulkan_video_codec_h265std_encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan_video_codec_h265std_encode.h; sourceTree = "<group>"; };
+		335B5D542AB84C8A009C0EB7 /* vulkan_video_codec_h265std_decode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan_video_codec_h265std_decode.h; sourceTree = "<group>"; };
+		335B5D562AB84C8A009C0EB7 /* mvk_private_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mvk_private_api.h; sourceTree = "<group>"; };
+		335B5D572AB84C8A009C0EB7 /* mvk_datatypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mvk_datatypes.h; sourceTree = "<group>"; };
+		335B5D582AB84C8A009C0EB7 /* vk_mvk_moltenvk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vk_mvk_moltenvk.h; sourceTree = "<group>"; };
+		335B5D592AB84C8A009C0EB7 /* mvk_vulkan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mvk_vulkan.h; sourceTree = "<group>"; };
+		335B5D5A2AB84C8A009C0EB7 /* mvk_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mvk_config.h; sourceTree = "<group>"; };
+		335B5D5B2AB84C8A009C0EB7 /* mvk_deprecated_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mvk_deprecated_api.h; sourceTree = "<group>"; };
+		335B5D5D2AB84C8A009C0EB7 /* vk_layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vk_layer.h; sourceTree = "<group>"; };
+		335B5D5E2AB84C8A009C0EB7 /* vk_icd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vk_icd.h; sourceTree = "<group>"; };
+		335B5D5F2AB84C8A009C0EB7 /* vulkan_vi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan_vi.h; sourceTree = "<group>"; };
+		335B5D602AB84C8A009C0EB7 /* vulkan_hash.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = vulkan_hash.hpp; sourceTree = "<group>"; };
+		335B5D612AB84C8A009C0EB7 /* vulkan_to_string.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = vulkan_to_string.hpp; sourceTree = "<group>"; };
+		335B5D622AB84C8A009C0EB7 /* vulkan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan.h; sourceTree = "<group>"; };
+		335B5D632AB84C8A009C0EB7 /* vk_platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vk_platform.h; sourceTree = "<group>"; };
+		335B5D642AB84C8A009C0EB7 /* vulkan.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = vulkan.hpp; sourceTree = "<group>"; };
+		335B5D652AB84C8A009C0EB7 /* vulkan_enums.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = vulkan_enums.hpp; sourceTree = "<group>"; };
+		335B5D662AB84C8A009C0EB7 /* vulkan_fuchsia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan_fuchsia.h; sourceTree = "<group>"; };
+		335B5D672AB84C8A009C0EB7 /* vulkan_wayland.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan_wayland.h; sourceTree = "<group>"; };
+		335B5D682AB84C8A009C0EB7 /* vulkan_static_assertions.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = vulkan_static_assertions.hpp; sourceTree = "<group>"; };
+		335B5D692AB84C8A009C0EB7 /* vulkan_win32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan_win32.h; sourceTree = "<group>"; };
+		335B5D6A2AB84C8A009C0EB7 /* vulkan_macos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan_macos.h; sourceTree = "<group>"; };
+		335B5D6B2AB84C8A009C0EB7 /* vulkan_xlib_xrandr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan_xlib_xrandr.h; sourceTree = "<group>"; };
+		335B5D6C2AB84C8A009C0EB7 /* vulkan_funcs.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = vulkan_funcs.hpp; sourceTree = "<group>"; };
+		335B5D6D2AB84C8A009C0EB7 /* vulkan_xcb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan_xcb.h; sourceTree = "<group>"; };
+		335B5D6E2AB84C8A009C0EB7 /* vulkan_ggp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan_ggp.h; sourceTree = "<group>"; };
+		335B5D6F2AB84C8A009C0EB7 /* vulkan_format_traits.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = vulkan_format_traits.hpp; sourceTree = "<group>"; };
+		335B5D702AB84C8A009C0EB7 /* vulkan_xlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan_xlib.h; sourceTree = "<group>"; };
+		335B5D712AB84C8A009C0EB7 /* vulkan_directfb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan_directfb.h; sourceTree = "<group>"; };
+		335B5D722AB84C8A009C0EB7 /* vulkan_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan_ios.h; sourceTree = "<group>"; };
+		335B5D732AB84C8A009C0EB7 /* vulkan_extension_inspection.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = vulkan_extension_inspection.hpp; sourceTree = "<group>"; };
+		335B5D742AB84C8A009C0EB7 /* vulkan_structs.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = vulkan_structs.hpp; sourceTree = "<group>"; };
+		335B5D752AB84C8A009C0EB7 /* vulkan_core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan_core.h; sourceTree = "<group>"; };
+		335B5D762AB84C8A009C0EB7 /* vulkan_raii.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = vulkan_raii.hpp; sourceTree = "<group>"; };
+		335B5D772AB84C8A009C0EB7 /* vulkan_screen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan_screen.h; sourceTree = "<group>"; };
+		335B5D782AB84C8A009C0EB7 /* vulkan_android.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan_android.h; sourceTree = "<group>"; };
+		335B5D792AB84C8A009C0EB7 /* vulkan_metal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan_metal.h; sourceTree = "<group>"; };
+		335B5D7A2AB84C8A009C0EB7 /* vulkan_handles.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = vulkan_handles.hpp; sourceTree = "<group>"; };
+		335B5D7B2AB84C8A009C0EB7 /* vulkan_beta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan_beta.h; sourceTree = "<group>"; };
+		335B5D7C2AB84C8A009C0EB7 /* MoltenVK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MoltenVK.xcframework; sourceTree = "<group>"; };
+		335B5D822AB84D3A009C0EB7 /* Waifu2xios.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Waifu2xios.mm; sourceTree = "<group>"; };
+		335B5D832AB84D3A009C0EB7 /* GPUInfo.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GPUInfo.mm; sourceTree = "<group>"; };
+		335B5D842AB84D3A009C0EB7 /* Waifu2xios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Waifu2xios.h; sourceTree = "<group>"; };
+		335B5D852AB84D3A009C0EB7 /* GPUInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUInfo.h; sourceTree = "<group>"; };
+		335B5D872AB84D3A009C0EB7 /* waifu2x.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = waifu2x.bundle; sourceTree = "<group>"; };
+		335B5D8A2AB84D3B009C0EB7 /* waifu2x_postproc.comp.hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = waifu2x_postproc.comp.hex.h; sourceTree = "<group>"; };
+		335B5D8B2AB84D3B009C0EB7 /* waifu2x_postproc_tta.comp.hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = waifu2x_postproc_tta.comp.hex.h; sourceTree = "<group>"; };
+		335B5D8C2AB84D3B009C0EB7 /* stb_image_write.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image_write.h; sourceTree = "<group>"; };
+		335B5D8D2AB84D3B009C0EB7 /* waifu2x_preproc_tta.comp.hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = waifu2x_preproc_tta.comp.hex.h; sourceTree = "<group>"; };
+		335B5D8E2AB84D3B009C0EB7 /* win32dirent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = win32dirent.h; sourceTree = "<group>"; };
+		335B5D8F2AB84D3B009C0EB7 /* waifu2x_preproc.comp.hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = waifu2x_preproc.comp.hex.h; sourceTree = "<group>"; };
+		335B5D902AB84D3B009C0EB7 /* stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
+		335B5D912AB84D3B009C0EB7 /* wic_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wic_image.h; sourceTree = "<group>"; };
+		335B5D922AB84D3B009C0EB7 /* filesystem_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filesystem_utils.h; sourceTree = "<group>"; };
+		335B5D932AB84D3B009C0EB7 /* waifu2x.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = waifu2x.h; sourceTree = "<group>"; };
+		335B5D942AB84D3B009C0EB7 /* waifu2x.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = waifu2x.cpp; sourceTree = "<group>"; };
+		335B5D992AB84D4B009C0EB7 /* Waifu2xSettingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Waifu2xSettingView.h; sourceTree = "<group>"; };
+		335B5D9A2AB84D4B009C0EB7 /* Waifu2xSettingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Waifu2xSettingView.m; sourceTree = "<group>"; };
+		335B5D9B2AB84D4B009C0EB7 /* WMDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMDragView.m; sourceTree = "<group>"; };
+		335B5D9C2AB84D4B009C0EB7 /* Waifu2xResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Waifu2xResultViewController.m; sourceTree = "<group>"; };
+		335B5D9D2AB84D4B009C0EB7 /* Waifu2xResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Waifu2xResultView.m; sourceTree = "<group>"; };
+		335B5D9E2AB84D4B009C0EB7 /* Waifu2xResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Waifu2xResultViewController.h; sourceTree = "<group>"; };
+		335B5D9F2AB84D4C009C0EB7 /* Waifu2xResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Waifu2xResultView.h; sourceTree = "<group>"; };
+		335B5DA02AB84D4C009C0EB7 /* WMDragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMDragView.h; sourceTree = "<group>"; };
+		335B5DA62AB84D72009C0EB7 /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = System/Library/Frameworks/PhotosUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		335B5D282AB84C73009C0EB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335B5D7E2AB84C8B009C0EB7 /* glslang.xcframework in Frameworks */,
+				335B5DA72AB84D73009C0EB7 /* PhotosUI.framework in Frameworks */,
+				335B5D7F2AB84C8B009C0EB7 /* ncnn.xcframework in Frameworks */,
+				335B5D7D2AB84C8B009C0EB7 /* openmp.xcframework in Frameworks */,
+				335B5D802AB84C8B009C0EB7 /* MoltenVK.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		335B5D222AB84C73009C0EB7 = {
+			isa = PBXGroup;
+			children = (
+				335B5D2D2AB84C73009C0EB7 /* Waifu2x */,
+				335B5D2C2AB84C73009C0EB7 /* Products */,
+				335B5DA52AB84D71009C0EB7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		335B5D2C2AB84C73009C0EB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				335B5D2B2AB84C73009C0EB7 /* Waifu2x.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		335B5D2D2AB84C73009C0EB7 /* Waifu2x */ = {
+			isa = PBXGroup;
+			children = (
+				335B5D812AB84D3A009C0EB7 /* class */,
+				335B5D862AB84D3A009C0EB7 /* models */,
+				335B5D882AB84D3B009C0EB7 /* waifu2x-ncnn-vulkan */,
+				335B5D4B2AB84C8A009C0EB7 /* MoltenVK */,
+				335B5D472AB84C89009C0EB7 /* ncnn */,
+				335B5D2E2AB84C73009C0EB7 /* AppDelegate.h */,
+				335B5D2F2AB84C73009C0EB7 /* AppDelegate.m */,
+				335B5D312AB84C73009C0EB7 /* SceneDelegate.h */,
+				335B5D322AB84C73009C0EB7 /* SceneDelegate.m */,
+				335B5D342AB84C73009C0EB7 /* ViewController.h */,
+				335B5D352AB84C73009C0EB7 /* ViewController.mm */,
+				335B5D9F2AB84D4C009C0EB7 /* Waifu2xResultView.h */,
+				335B5D9D2AB84D4B009C0EB7 /* Waifu2xResultView.m */,
+				335B5D9E2AB84D4B009C0EB7 /* Waifu2xResultViewController.h */,
+				335B5D9C2AB84D4B009C0EB7 /* Waifu2xResultViewController.m */,
+				335B5D992AB84D4B009C0EB7 /* Waifu2xSettingView.h */,
+				335B5D9A2AB84D4B009C0EB7 /* Waifu2xSettingView.m */,
+				335B5DA02AB84D4C009C0EB7 /* WMDragView.h */,
+				335B5D9B2AB84D4B009C0EB7 /* WMDragView.m */,
+				335B5D372AB84C73009C0EB7 /* Main.storyboard */,
+				335B5D3A2AB84C75009C0EB7 /* Assets.xcassets */,
+				335B5D3C2AB84C75009C0EB7 /* LaunchScreen.storyboard */,
+				335B5D3F2AB84C75009C0EB7 /* Info.plist */,
+				335B5D402AB84C75009C0EB7 /* main.m */,
+			);
+			path = Waifu2x;
+			sourceTree = "<group>";
+		};
+		335B5D472AB84C89009C0EB7 /* ncnn */ = {
+			isa = PBXGroup;
+			children = (
+				335B5D482AB84C89009C0EB7 /* openmp.xcframework */,
+				335B5D492AB84C89009C0EB7 /* glslang.xcframework */,
+				335B5D4A2AB84C89009C0EB7 /* ncnn.xcframework */,
+			);
+			path = ncnn;
+			sourceTree = "<group>";
+		};
+		335B5D4B2AB84C8A009C0EB7 /* MoltenVK */ = {
+			isa = PBXGroup;
+			children = (
+				335B5D4C2AB84C8A009C0EB7 /* include */,
+				335B5D7C2AB84C8A009C0EB7 /* MoltenVK.xcframework */,
+			);
+			path = MoltenVK;
+			sourceTree = "<group>";
+		};
+		335B5D4C2AB84C8A009C0EB7 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				335B5D4D2AB84C8A009C0EB7 /* vk_video */,
+				335B5D552AB84C8A009C0EB7 /* MoltenVK */,
+				335B5D5C2AB84C8A009C0EB7 /* vulkan */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		335B5D4D2AB84C8A009C0EB7 /* vk_video */ = {
+			isa = PBXGroup;
+			children = (
+				335B5D4E2AB84C8A009C0EB7 /* vulkan_video_codec_h264std.h */,
+				335B5D4F2AB84C8A009C0EB7 /* vulkan_video_codec_h265std.h */,
+				335B5D502AB84C8A009C0EB7 /* vulkan_video_codec_h264std_decode.h */,
+				335B5D512AB84C8A009C0EB7 /* vulkan_video_codec_h264std_encode.h */,
+				335B5D522AB84C8A009C0EB7 /* vulkan_video_codecs_common.h */,
+				335B5D532AB84C8A009C0EB7 /* vulkan_video_codec_h265std_encode.h */,
+				335B5D542AB84C8A009C0EB7 /* vulkan_video_codec_h265std_decode.h */,
+			);
+			path = vk_video;
+			sourceTree = "<group>";
+		};
+		335B5D552AB84C8A009C0EB7 /* MoltenVK */ = {
+			isa = PBXGroup;
+			children = (
+				335B5D562AB84C8A009C0EB7 /* mvk_private_api.h */,
+				335B5D572AB84C8A009C0EB7 /* mvk_datatypes.h */,
+				335B5D582AB84C8A009C0EB7 /* vk_mvk_moltenvk.h */,
+				335B5D592AB84C8A009C0EB7 /* mvk_vulkan.h */,
+				335B5D5A2AB84C8A009C0EB7 /* mvk_config.h */,
+				335B5D5B2AB84C8A009C0EB7 /* mvk_deprecated_api.h */,
+			);
+			path = MoltenVK;
+			sourceTree = "<group>";
+		};
+		335B5D5C2AB84C8A009C0EB7 /* vulkan */ = {
+			isa = PBXGroup;
+			children = (
+				335B5D5D2AB84C8A009C0EB7 /* vk_layer.h */,
+				335B5D5E2AB84C8A009C0EB7 /* vk_icd.h */,
+				335B5D5F2AB84C8A009C0EB7 /* vulkan_vi.h */,
+				335B5D602AB84C8A009C0EB7 /* vulkan_hash.hpp */,
+				335B5D612AB84C8A009C0EB7 /* vulkan_to_string.hpp */,
+				335B5D622AB84C8A009C0EB7 /* vulkan.h */,
+				335B5D632AB84C8A009C0EB7 /* vk_platform.h */,
+				335B5D642AB84C8A009C0EB7 /* vulkan.hpp */,
+				335B5D652AB84C8A009C0EB7 /* vulkan_enums.hpp */,
+				335B5D662AB84C8A009C0EB7 /* vulkan_fuchsia.h */,
+				335B5D672AB84C8A009C0EB7 /* vulkan_wayland.h */,
+				335B5D682AB84C8A009C0EB7 /* vulkan_static_assertions.hpp */,
+				335B5D692AB84C8A009C0EB7 /* vulkan_win32.h */,
+				335B5D6A2AB84C8A009C0EB7 /* vulkan_macos.h */,
+				335B5D6B2AB84C8A009C0EB7 /* vulkan_xlib_xrandr.h */,
+				335B5D6C2AB84C8A009C0EB7 /* vulkan_funcs.hpp */,
+				335B5D6D2AB84C8A009C0EB7 /* vulkan_xcb.h */,
+				335B5D6E2AB84C8A009C0EB7 /* vulkan_ggp.h */,
+				335B5D6F2AB84C8A009C0EB7 /* vulkan_format_traits.hpp */,
+				335B5D702AB84C8A009C0EB7 /* vulkan_xlib.h */,
+				335B5D712AB84C8A009C0EB7 /* vulkan_directfb.h */,
+				335B5D722AB84C8A009C0EB7 /* vulkan_ios.h */,
+				335B5D732AB84C8A009C0EB7 /* vulkan_extension_inspection.hpp */,
+				335B5D742AB84C8A009C0EB7 /* vulkan_structs.hpp */,
+				335B5D752AB84C8A009C0EB7 /* vulkan_core.h */,
+				335B5D762AB84C8A009C0EB7 /* vulkan_raii.hpp */,
+				335B5D772AB84C8A009C0EB7 /* vulkan_screen.h */,
+				335B5D782AB84C8A009C0EB7 /* vulkan_android.h */,
+				335B5D792AB84C8A009C0EB7 /* vulkan_metal.h */,
+				335B5D7A2AB84C8A009C0EB7 /* vulkan_handles.hpp */,
+				335B5D7B2AB84C8A009C0EB7 /* vulkan_beta.h */,
+			);
+			path = vulkan;
+			sourceTree = "<group>";
+		};
+		335B5D812AB84D3A009C0EB7 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				335B5D822AB84D3A009C0EB7 /* Waifu2xios.mm */,
+				335B5D832AB84D3A009C0EB7 /* GPUInfo.mm */,
+				335B5D842AB84D3A009C0EB7 /* Waifu2xios.h */,
+				335B5D852AB84D3A009C0EB7 /* GPUInfo.h */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		335B5D862AB84D3A009C0EB7 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				335B5D872AB84D3A009C0EB7 /* waifu2x.bundle */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		335B5D882AB84D3B009C0EB7 /* waifu2x-ncnn-vulkan */ = {
+			isa = PBXGroup;
+			children = (
+				335B5D892AB84D3B009C0EB7 /* src */,
+			);
+			path = "waifu2x-ncnn-vulkan";
+			sourceTree = "<group>";
+		};
+		335B5D892AB84D3B009C0EB7 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				335B5D8A2AB84D3B009C0EB7 /* waifu2x_postproc.comp.hex.h */,
+				335B5D8B2AB84D3B009C0EB7 /* waifu2x_postproc_tta.comp.hex.h */,
+				335B5D8C2AB84D3B009C0EB7 /* stb_image_write.h */,
+				335B5D8D2AB84D3B009C0EB7 /* waifu2x_preproc_tta.comp.hex.h */,
+				335B5D8E2AB84D3B009C0EB7 /* win32dirent.h */,
+				335B5D8F2AB84D3B009C0EB7 /* waifu2x_preproc.comp.hex.h */,
+				335B5D902AB84D3B009C0EB7 /* stb_image.h */,
+				335B5D912AB84D3B009C0EB7 /* wic_image.h */,
+				335B5D922AB84D3B009C0EB7 /* filesystem_utils.h */,
+				335B5D932AB84D3B009C0EB7 /* waifu2x.h */,
+				335B5D942AB84D3B009C0EB7 /* waifu2x.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		335B5DA52AB84D71009C0EB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				335B5DA62AB84D72009C0EB7 /* PhotosUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		335B5D2A2AB84C73009C0EB7 /* Waifu2x */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 335B5D442AB84C75009C0EB7 /* Build configuration list for PBXNativeTarget "Waifu2x" */;
+			buildPhases = (
+				335B5D272AB84C73009C0EB7 /* Sources */,
+				335B5D282AB84C73009C0EB7 /* Frameworks */,
+				335B5D292AB84C73009C0EB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Waifu2x;
+			productName = Waifu2x;
+			productReference = 335B5D2B2AB84C73009C0EB7 /* Waifu2x.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		335B5D232AB84C73009C0EB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					335B5D2A2AB84C73009C0EB7 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 335B5D262AB84C73009C0EB7 /* Build configuration list for PBXProject "Waifu2x" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 335B5D222AB84C73009C0EB7;
+			productRefGroup = 335B5D2C2AB84C73009C0EB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				335B5D2A2AB84C73009C0EB7 /* Waifu2x */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		335B5D292AB84C73009C0EB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335B5D972AB84D3B009C0EB7 /* waifu2x.bundle in Resources */,
+				335B5D3E2AB84C75009C0EB7 /* LaunchScreen.storyboard in Resources */,
+				335B5D3B2AB84C75009C0EB7 /* Assets.xcassets in Resources */,
+				335B5D392AB84C73009C0EB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		335B5D272AB84C73009C0EB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335B5DA42AB84D4C009C0EB7 /* Waifu2xResultView.m in Sources */,
+				335B5D982AB84D3B009C0EB7 /* waifu2x.cpp in Sources */,
+				335B5DA22AB84D4C009C0EB7 /* WMDragView.m in Sources */,
+				335B5D962AB84D3B009C0EB7 /* GPUInfo.mm in Sources */,
+				335B5D362AB84C73009C0EB7 /* ViewController.mm in Sources */,
+				335B5DA32AB84D4C009C0EB7 /* Waifu2xResultViewController.m in Sources */,
+				335B5D302AB84C73009C0EB7 /* AppDelegate.m in Sources */,
+				335B5D412AB84C75009C0EB7 /* main.m in Sources */,
+				335B5D952AB84D3B009C0EB7 /* Waifu2xios.mm in Sources */,
+				335B5DA12AB84D4C009C0EB7 /* Waifu2xSettingView.m in Sources */,
+				335B5D332AB84C73009C0EB7 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		335B5D372AB84C73009C0EB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				335B5D382AB84C73009C0EB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		335B5D3C2AB84C75009C0EB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				335B5D3D2AB84C75009C0EB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		335B5D422AB84C75009C0EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		335B5D432AB84C75009C0EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		335B5D452AB84C75009C0EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Waifu2x/MoltenVK/include\"",
+					"\"$(SRCROOT)/Waifu2x/ncnn/ncnn.xcframework/ios-arm64_x86_64-simulator/ncnn.framework/Headers\"",
+				);
+				INFOPLIST_FILE = Waifu2x/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fancy.Waifu2x;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		335B5D462AB84C75009C0EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Waifu2x/MoltenVK/include\"",
+					"\"$(SRCROOT)/Waifu2x/ncnn/ncnn.xcframework/ios-arm64_arm64e/ncnn.framework/Headers\"",
+				);
+				INFOPLIST_FILE = Waifu2x/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fancy.Waifu2x;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		335B5D262AB84C73009C0EB7 /* Build configuration list for PBXProject "Waifu2x" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335B5D422AB84C75009C0EB7 /* Debug */,
+				335B5D432AB84C75009C0EB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		335B5D442AB84C75009C0EB7 /* Build configuration list for PBXNativeTarget "Waifu2x" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335B5D452AB84C75009C0EB7 /* Debug */,
+				335B5D462AB84C75009C0EB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 335B5D232AB84C73009C0EB7 /* Project object */;
+}
